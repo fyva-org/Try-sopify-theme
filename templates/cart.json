@@ -1,1 +1,57 @@
-{"sections":{"cart-items":{"type":"main-cart-items","settings":{"color_scheme":"background-1","padding_top":36,"padding_bottom":36}},"cart-footer":{"type":"main-cart-footer","blocks":{"subtotal":{"type":"subtotal","settings":{}},"buttons":{"type":"buttons","settings":{}}},"block_order":["subtotal","buttons"],"settings":{"color_scheme":"background-1","padding_top":20,"padding_bottom":40}}},"order":["cart-items","cart-footer"]}
+{
+  "sections": {
+    "cart-items": {
+      "type": "main-cart-items",
+      "settings": {
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "cart-footer": {
+      "type": "main-cart-footer",
+      "blocks": {
+        "subtotal": {
+          "type": "subtotal",
+          "settings": {
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "subtotal",
+        "buttons"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "padding_top": 20,
+        "padding_bottom": 40
+      }
+    },
+    "alireviews-section-2b45b497-55b5-40a2-ac88-c4da96fb8b84": {
+      "type": "apps",
+      "blocks": {
+        "513db6ef-2a7c-41ab-a0ec-15b44db1caee": {
+          "type": "shopify:\/\/apps\/ali-reviews-product-reviews\/blocks\/widget-box-in-cart\/bf2eea72-0400-4db1-8908-44b7418f9a88",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "513db6ef-2a7c-41ab-a0ec-15b44db1caee"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "cart-items",
+    "cart-footer",
+    "alireviews-section-2b45b497-55b5-40a2-ac88-c4da96fb8b84"
+  ]
+}
