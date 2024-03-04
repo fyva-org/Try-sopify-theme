@@ -15,6 +15,11 @@
           "settings": {
           }
         },
+        "13f35117-df02-4475-a289-db9b19702306": {
+          "type": "shopify:\/\/apps\/ali-reviews-product-reviews\/blocks\/widget-star-rating\/bf2eea72-0400-4db1-8908-44b7418f9a88",
+          "settings": {
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -23,7 +28,8 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button"
+            "picker_type": "button",
+            "swatch_shape": "circle"
           }
         },
         "quantity_selector": {
@@ -50,9 +56,10 @@
             "share_label": "Share"
           }
         },
-        "13f35117-df02-4475-a289-db9b19702306": {
-          "type": "shopify:\/\/apps\/ali-reviews-product-reviews\/blocks\/widget-star-rating\/bf2eea72-0400-4db1-8908-44b7418f9a88",
+        "tranh_social_media_share_bar_app_block_Ly4W7M": {
+          "type": "shopify:\/\/apps\/tranh-social-media-share-bar\/blocks\/app-block\/671b3682-2d3c-4954-8de4-2fd7ae8cd75e",
           "settings": {
+            "pr_social_share": "{}"
           }
         }
       },
@@ -65,7 +72,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "tranh_social_media_share_bar_app_block_Ly4W7M"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -107,11 +115,12 @@
         "f00fda7f-fe30-41b5-869c-15876db3a34e": {
           "type": "shopify:\/\/apps\/ali-reviews-product-reviews\/blocks\/widget-box\/bf2eea72-0400-4db1-8908-44b7418f9a88",
           "settings": {
+            "product": "",
             "name": "Review Box",
             "vertical_alignment": "2",
-            "rating_color": "rgba(31,31,31,1)",
-            "section_color": "rgba(255,255,255,1)",
-            "primary_text_color": "rgba(31,31,31,1)"
+            "rating_color": "#1f1f1f",
+            "section_color": "#ffffff",
+            "primary_text_color": "#1f1f1f"
           }
         }
       },
