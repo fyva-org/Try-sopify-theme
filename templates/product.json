@@ -102,45 +102,6 @@
         "padding_bottom": 28
       }
     },
-    "alireviews-section-27e09c2a-cda2-4897-b5d6-e38171efd4b5": {
-      "type": "apps",
-      "blocks": {
-        "f00fda7f-fe30-41b5-869c-15876db3a34e": {
-          "type": "shopify:\/\/apps\/ali-reviews-product-reviews\/blocks\/widget-box\/bf2eea72-0400-4db1-8908-44b7418f9a88",
-          "settings": {
-            "product": "",
-            "name": "Review Box",
-            "vertical_alignment": "2",
-            "rating_color": "#1f1f1f",
-            "section_color": "#ffffff",
-            "primary_text_color": "#1f1f1f"
-          }
-        }
-      },
-      "block_order": [
-        "f00fda7f-fe30-41b5-869c-15876db3a34e"
-      ],
-      "disabled": true,
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "17096283983d8130dd": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_all_reviews_text_zyy9jK": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/all_reviews_text\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_all_reviews_text_zyy9jK"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "170962841218fbf6e0": {
       "type": "apps",
       "blocks": {
@@ -159,81 +120,6 @@
     },
     "1709628435c8f027b0": {
       "type": "apps",
-      "blocks": {
-        "judge_me_reviews_featured_carousel_iqTEWi": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "maxwidth": 1080
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_featured_carousel_iqTEWi"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "170962845994036c25": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_medals_bGnVGF": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/medals\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_medals_bGnVGF"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "170962846937b60650": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_preview_badge_pVLLNy": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_preview_badge_pVLLNy"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "1709628478fda33374": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_ugc_media_grid_ntVqDK": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/ugc_media_grid\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_ugc_media_grid_ntVqDK"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "170962848448c9b0bb": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_verified_badge_9xU6GE": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/verified_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_verified_badge_9xU6GE"
-      ],
       "settings": {
         "include_margins": true
       }
@@ -242,13 +128,7 @@
   "order": [
     "main",
     "related-products",
-    "alireviews-section-27e09c2a-cda2-4897-b5d6-e38171efd4b5",
-    "17096283983d8130dd",
     "170962841218fbf6e0",
-    "1709628435c8f027b0",
-    "170962845994036c25",
-    "170962846937b60650",
-    "1709628478fda33374",
-    "170962848448c9b0bb"
+    "1709628435c8f027b0"
   ]
 }
