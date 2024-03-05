@@ -49,6 +49,12 @@
           "type": "description",
           "settings": {
           }
+        },
+        "tranh_social_media_share_bar_app_block_M89Ny9": {
+          "type": "shopify:\/\/apps\/tranh-social-media-share-bar\/blocks\/app-block\/671b3682-2d3c-4954-8de4-2fd7ae8cd75e",
+          "settings": {
+            "pr_social_share": "{}"
+          }
         }
       },
       "block_order": [
@@ -59,7 +65,8 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description"
+        "description",
+        "tranh_social_media_share_bar_app_block_M89Ny9"
       ],
       "settings": {
         "enable_sticky_info": true,
