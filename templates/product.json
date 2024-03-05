@@ -123,11 +123,28 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "17096283983d8130dd": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_all_reviews_text_zyy9jK": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/all_reviews_text\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_all_reviews_text_zyy9jK"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "alireviews-section-27e09c2a-cda2-4897-b5d6-e38171efd4b5"
+    "alireviews-section-27e09c2a-cda2-4897-b5d6-e38171efd4b5",
+    "17096283983d8130dd"
   ]
 }
