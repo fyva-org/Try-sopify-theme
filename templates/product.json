@@ -15,11 +15,6 @@
           "settings": {
           }
         },
-        "13f35117-df02-4475-a289-db9b19702306": {
-          "type": "shopify:\/\/apps\/ali-reviews-product-reviews\/blocks\/widget-star-rating\/bf2eea72-0400-4db1-8908-44b7418f9a88",
-          "settings": {
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -55,18 +50,25 @@
           "settings": {
             "pr_social_share": "{}"
           }
+        },
+        "popup_YY3Wzg": {
+          "type": "popup",
+          "settings": {
+            "text": "Share",
+            "page": "share_product"
+          }
         }
       },
       "block_order": [
         "vendor",
         "title",
-        "13f35117-df02-4475-a289-db9b19702306",
         "price",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "description",
-        "tranh_social_media_share_bar_app_block_M89Ny9"
+        "tranh_social_media_share_bar_app_block_M89Ny9",
+        "popup_YY3Wzg"
       ],
       "settings": {
         "enable_sticky_info": true,
