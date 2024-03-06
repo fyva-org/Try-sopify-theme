@@ -54,7 +54,7 @@
         "popup_YY3Wzg": {
           "type": "popup",
           "settings": {
-            "text": "Share",
+            "text": "Share Product",
             "page": "share_product"
           }
         }
