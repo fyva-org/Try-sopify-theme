@@ -22,17 +22,6 @@
     },
     "1709702966e851e9fb": {
       "type": "apps",
-      "blocks": {
-        "tranh_social_media_share_bar_app_block_jCFAzh": {
-          "type": "shopify:\/\/apps\/tranh-social-media-share-bar\/blocks\/app-block\/671b3682-2d3c-4954-8de4-2fd7ae8cd75e",
-          "settings": {
-            "pr_social_share": "{}"
-          }
-        }
-      },
-      "block_order": [
-        "tranh_social_media_share_bar_app_block_jCFAzh"
-      ],
       "settings": {
         "include_margins": true
       }
