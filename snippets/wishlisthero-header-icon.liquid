@@ -12,6 +12,6 @@
   {% endcase %}
   <!-- Wishlist Hero Header Icon -->
 {% assign key = 'WishListHero_ShowHeaderIcon' %} {% if wishlistHero.WishListHero_ShowHeaderIcon != 'false' %}<a class="site-header__icon site-header__link wishlist-hero-header-icon wishlist-hero-header-show-count-only " href="#hero-wishlist" arial-label="Open Wishlist">
-{% case wishlistHeroIconClass %}{% when '1' %}{% render 'wlh-icon-heart-empty' ,buttonClasses:'wlh-svg-Icon wlh-svg-icon-heart-empty',buttonStyles:'width:1em;font-size:21px; padding-top:7px;' %}{% when '2' %}{% render 'wlh-icon-star-empty' ,buttonClasses:'wlh-svg-Icon wlh-svg-icon-star-empty',buttonStyles:'width:1em;font-size:21px; padding-top:7px;'%}{% when '3' %}{% render 'wlh-icon-bookmark-empty',buttonClasses:'wlh-svg-Icon wlh-svg-icon-bookmark-empty',buttonStyles:'width:1em;font-size:15px; padding-top:8px;' %}{% endcase %}
+{% case wishlistHeroIconClass %}{% when '1' %}{% render 'wlh-icon-heart-empty' ,buttonClasses:'wlh-svg-Icon wlh-svg-icon-heart-empty',buttonStyles:'width:1em;font-size:21px; padding-top:40px;' %}{% when '2' %}{% render 'wlh-icon-star-empty' ,buttonClasses:'wlh-svg-Icon wlh-svg-icon-star-empty',buttonStyles:'width:1em;font-size:21px; padding-top:7px;'%}{% when '3' %}{% render 'wlh-icon-bookmark-empty',buttonClasses:'wlh-svg-Icon wlh-svg-icon-bookmark-empty',buttonStyles:'width:1em;font-size:15px; padding-top:8px;' %}{% endcase %}
 </a> {% endif %}
 <!-- end -->
