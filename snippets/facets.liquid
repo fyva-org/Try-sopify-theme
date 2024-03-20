@@ -182,6 +182,7 @@
                       {%- endif -%}
                       <fieldset class="facets-wrap parent-wrap {% if filter_type == 'vertical' %} facets-wrap-vertical{% endif %}">
                         <legend class="visually-hidden">{{ filter.label | escape }}</legend>
+                        {%- if filter.label != 'Gender' -%}
                         <ul
                           class="{{ visual_layout_class }}{% if filter_type == 'vertical' %} facets__list--vertical{% else %} facets__list{% endif %} list-unstyled no-js-hidden"
                           role="list"
@@ -273,6 +274,7 @@
                             </li>
                           {%- endfor -%}
                         </ul>
+                      {%- endif -%}
                         {% comment %} No show more for no JS {% endcomment %}
                         <ul
                           class="{% if filter_type != 'vertical' %} facets__list{% endif %} no-js-list list-unstyled no-js"
