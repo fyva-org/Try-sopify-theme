@@ -295,7 +295,7 @@
                                 assign is_disabled = true
                               endif
                             %}
-                            {% unless value.value contains 'men' or value.value contains 'women' %}
+                            {% if value.value == 'Men' or value.value == 'Women' %}
 
                             <li class="list-menu__item facets__item{% if forloop.index > show_more_number and filter_type == 'vertical' %} show-more-item hidden{% endif %}">
                               <label
@@ -365,7 +365,7 @@
                                 >
                               </label>
                             </li>
-                              {% endunless %}
+                              {% endif %}
                           {%- endfor -%}
                         </ul>
                       {%- endif -%}
