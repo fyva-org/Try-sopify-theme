@@ -295,7 +295,7 @@
                                 assign is_disabled = true
                               endif
                             %}
-                            {% if value.value == 'Men' or value.value == 'Women' %}
+                            {% if value.value == 'Men' or value.value == 'men' or value.value == 'women' or value.value == 'Women' %}
 
                             <li class="list-menu__item facets__item{% if forloop.index > show_more_number and filter_type == 'vertical' %} show-more-item hidden{% endif %}">
                               <label
@@ -305,7 +305,7 @@
                                 <input
                                   type="checkbox"
                                   name="{{ value.param_name }}"
-                                  value="men"
+                                  value="{{ value.value }}"
                                   id="Filter-{{ filter.param_name | escape }}-{{ forloop.index }}"
                                   {% if value.active %}
                                     checked
