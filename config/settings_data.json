@@ -152,6 +152,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "8813254906777318544": {
+        "type": "shopify:\/\/apps\/kaktus-advanced-wishlist\/blocks\/app-embeded\/21053a4c-1902-4720-aab8-ebfc69de009a",
+        "disabled": true,
+        "settings": {
+        }
       }
     },
     "color_schemes": {
