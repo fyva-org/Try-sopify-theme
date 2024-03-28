@@ -45,10 +45,9 @@
           "settings": {
           }
         },
-        "tranh_social_media_share_bar_app_block_M89Ny9": {
-          "type": "shopify:\/\/apps\/tranh-social-media-share-bar\/blocks\/app-block\/671b3682-2d3c-4954-8de4-2fd7ae8cd75e",
+        "gropulse_wishlist_gropulse_wishlist_button_wzYnGx": {
+          "type": "shopify:\/\/apps\/gropulse-wishlist\/blocks\/gropulse-wishlist-button\/d606b448-832c-4b0a-adbb-21c7fa132df1",
           "settings": {
-            "pr_social_share": "{}"
           }
         }
       },
@@ -60,7 +59,7 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "tranh_social_media_share_bar_app_block_M89Ny9"
+        "gropulse_wishlist_gropulse_wishlist_button_wzYnGx"
       ],
       "settings": {
         "enable_sticky_info": true,
